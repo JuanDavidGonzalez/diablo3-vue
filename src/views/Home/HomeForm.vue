@@ -13,14 +13,7 @@
             label-for="input-text"
             description="Format: YourProfile#1234"
           >
-            <b-form-input
-              id="input-text"
-              v-model="form.battleTag"
-              type="text"
-              size="lg"
-              required
-              placeholder="BattleTag"
-            />
+            <b-form-input v-focus id="input-text" v-model="form.battleTag" type="text" size="lg" required placeholder="BattleTag" />
           </b-form-group>
 
           <!-- Grupo 2 (Selector de región) -->
