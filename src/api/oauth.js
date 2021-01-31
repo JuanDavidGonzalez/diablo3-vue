@@ -2,8 +2,8 @@
 import { post } from 'axios'
 
 // Credenciales de nuestra cuenta de blizard
-const clientID = 'df30f0d9eed24d04bc15480e1af333e1'
-const clientSecret = '84EgZF1SHFcFD7PfD9RFVgbQGZ1bui5t'
+const clientID = process.env.VUE_APP_CLIENT_ID
+const clientSecret = process.env.VUE_APP_CLIENT_SECRET
 
 // API URL para hacer oauth
 const region = 'eu'
